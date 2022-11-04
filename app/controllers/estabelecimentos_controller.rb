@@ -1,0 +1,5 @@
+class EstabelecimentosController < ApplicationController
+
+    
+
+end
