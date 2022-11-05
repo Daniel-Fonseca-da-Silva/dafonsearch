@@ -1,0 +1,2 @@
+module UsuarioComumHelper
+end
