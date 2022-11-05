@@ -1,5 +1,3 @@
 class EstabelecimentosController < ApplicationController
 
-    
-
 end
