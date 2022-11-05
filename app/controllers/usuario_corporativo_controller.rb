@@ -1,0 +1,3 @@
+class UsuarioCorporativoController < ApplicationController
+    
+end
