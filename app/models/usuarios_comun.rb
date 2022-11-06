@@ -1,0 +1,2 @@
+class UsuariosComun < ApplicationRecord
+end
