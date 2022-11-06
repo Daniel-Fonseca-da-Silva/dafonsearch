@@ -11,7 +11,7 @@ one:
   cep: MyString
   telefone: MyString
   site: MyString
-  emai: MyString
+  email: MyString
 
 two:
   nome: MyString
@@ -24,4 +24,4 @@ two:
   cep: MyString
   telefone: MyString
   site: MyString
-  emai: MyString
+  email: MyString

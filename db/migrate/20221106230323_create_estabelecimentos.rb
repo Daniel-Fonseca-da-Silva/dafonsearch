@@ -11,7 +11,7 @@ class CreateEstabelecimentos < ActiveRecord::Migration[7.0]
       t.string :cep
       t.string :telefone
       t.string :site
-      t.string :emai
+      t.string :email
 
       t.timestamps
     end
