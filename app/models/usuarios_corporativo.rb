@@ -1,0 +1,2 @@
+class UsuariosCorporativo < ApplicationRecord
+end
