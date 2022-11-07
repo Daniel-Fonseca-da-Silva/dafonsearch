@@ -18,19 +18,19 @@
             </thead>
             <tbody>
                 <% usuarios = UsuariosComun.all %>
-                <% usuarios.each do |usuario| %>
+                <% usuarios.each do |comum| %>
                     <tr>
-                        <td><%= usuario.nome %></td>
-                        <td><%= usuario.sobrenome %></td>
-                        <td><%= usuario.cpf %></td>
-                        <td><%= usuario.email %></td>
-                        <td><%= usuario.sexo %></td>
-                        <td><%= usuario.nascimento %></td>
-                        <td><%= usuario.senha %></td>
-                        <td><%= usuario.cidade %></td>
-                        <td><%= usuario.estado %></td>
-                        <td><%= usuario.cep %></td>
-                        <td><%= usuario.telefone %></td>
+                        <td><%= comum.nome %></td>
+                        <td><%= comum.sobrenome %></td>
+                        <td><%= comum.cpf %></td>
+                        <td><%= comum.email %></td>
+                        <td><%= comum.sexo %></td>
+                        <td><%= comum.nascimento %></td>
+                        <td><%= comum.senha %></td>
+                        <td><%= comum.cidade %></td>
+                        <td><%= comum.estado %></td>
+                        <td><%= comum.cep %></td>
+                        <td><%= comum.telefone %></td>
                     </tr>
                 <% end %>
             </tbody>
