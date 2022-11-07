@@ -1,0 +1,35 @@
+<html>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <td>Nome</td>
+                    <td>CNPJ</td>
+                    <td>Email</td>
+                    <td>Senha</td>
+                    <td>Cidade</td>
+                    <td>Estado</td>
+                    <td>CEP</td>
+                    <td>Telefone</td>
+                    <td>Site</td>
+                </tr>
+            </thead>
+            <tbody>
+            <% usuarios = UsuariosCorporativo.all %>
+            <% usuarios.each do |corporativo| %>
+                <tr>
+                    <td><%= corporativo.nome %></td>
+                    <td><%= corporativo.cnpj %></td>
+                    <td><%= corporativo.email %></td>
+                    <td><%= corporativo.senha %></td>
+                    <td><%= corporativo.cidade %></td>
+                    <td><%= corporativo.estado %></td>
+                    <td><%= corporativo.cep %></td>
+                    <td><%= corporativo.telefone %></td>
+                    <td><%= corporativo.site %></td>
+                </tr>
+                <% end %>
+            </tbody>
+        </table>
+    </body>
+</html>
