@@ -1,0 +1,39 @@
+<html>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <td>Nome</td>
+                    <td>Sobrenome</td>
+                    <td>CPF</td>
+                    <td>Email</td>
+                    <td>Sexo</td>
+                    <td>Nascimento</td>
+                    <td>Senha</td>
+                    <td>Cidade</td>
+                    <td>Estado</td>
+                    <td>CEP</td>
+                    <td>Telefone</td>
+                </tr>
+            </thead>
+            <tbody>
+                <% usuarios = UsuariosComun.all %>
+                <% usuarios.each do |usuario| %>
+                    <tr>
+                        <td><%= usuario.nome %></td>
+                        <td><%= usuario.sobrenome %></td>
+                        <td><%= usuario.cpf %></td>
+                        <td><%= usuario.email %></td>
+                        <td><%= usuario.sexo %></td>
+                        <td><%= usuario.nascimento %></td>
+                        <td><%= usuario.senha %></td>
+                        <td><%= usuario.cidade %></td>
+                        <td><%= usuario.estado %></td>
+                        <td><%= usuario.cep %></td>
+                        <td><%= usuario.telefone %></td>
+                    </tr>
+                <% end %>
+            </tbody>
+        </table>
+    </body>
+</html>
