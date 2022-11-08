@@ -3,6 +3,15 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.0.2"
 
+# PopperJs
+gem 'popper_js', '~> 2.11.5'
+
+# Jquery 1, 2, 3
+gem 'jquery-rails'
+
+# Bootstrap 5.0
+gem "twitter-bootstrap-rails"
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4"
 
