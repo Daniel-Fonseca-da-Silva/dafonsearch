@@ -6,11 +6,13 @@ one:
   categoria: MyString
   numero: 1
   estado: MyString
-  bairo: MyString
+  bairro: MyString
+  endereco: MyText
   cidade: MyString
   cep: MyString
   telefone: MyString
   site: MyString
+  pontuacao: 1
   email: MyString
 
 two:
@@ -19,9 +21,11 @@ two:
   categoria: MyString
   numero: 1
   estado: MyString
-  bairo: MyString
+  bairro: MyString
+  endereco: MyText
   cidade: MyString
   cep: MyString
   telefone: MyString
   site: MyString
+  pontuacao: 1
   email: MyString

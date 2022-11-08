@@ -13,23 +13,24 @@
                     <td>Cep</td>
                     <td>Telefone</td>
                     <td>Site</td>
+                    <td>Pontuação</td>
                     <td>Email</td>
                 </tr>
             </thead>
             <tbody>
-                <% todos = Estabelecimento.all %>
-                <% todos.each do |estabelecimento| %>
+                <% @estabelecimentos.each do |estabelecimento| %>
                     <tr>
                         <td><%= estabelecimento.nome %></td>
                         <td><%= estabelecimento.descricao %></td>
                         <td><%= estabelecimento.categoria %></td>
                         <td><%= estabelecimento.numero %></td>
                         <td><%= estabelecimento.estado %></td>
-                        <td><%= estabelecimento.bairo %></td>
+                        <td><%= estabelecimento.bairro %></td>
                         <td><%= estabelecimento.cidade %></td>
                         <td><%= estabelecimento.cep %></td>
                         <td><%= estabelecimento.telefone %></td>
                         <td><%= estabelecimento.site %></td>
+                        <td><%= estabelecimento.pontuacao %></td>
                         <td><%= estabelecimento.email %></td>
                     </tr>
                 <% end %>

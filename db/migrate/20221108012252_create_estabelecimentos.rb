@@ -6,11 +6,13 @@ class CreateEstabelecimentos < ActiveRecord::Migration[7.0]
       t.string :categoria
       t.integer :numero
       t.string :estado
-      t.string :bairo
+      t.string :bairro
+      t.text :endereco
       t.string :cidade
       t.string :cep
       t.string :telefone
       t.string :site
+      t.integer :pontuacao
       t.string :email
 
       t.timestamps
