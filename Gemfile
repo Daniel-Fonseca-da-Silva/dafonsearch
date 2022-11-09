@@ -3,6 +3,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.0.2"
 
+# Font-awesome
+gem "font-awesome-sass", "~> 6.2.0"
+
 # PopperJs
 gem 'popper_js', '~> 2.11.5'
 
