@@ -1,0 +1,116 @@
+.text-title {
+    font-size: 1.5em;
+    color: rgb(63, 63, 63);
+}
+
+.navbar-header .nav-icons {
+    position: absolute;
+    display: inline-block;
+  }
+
+.nav-item .menu-link {
+    margin-right: 40px;
+}
+
+.header-itens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icon-header-right {
+    font-size: 30px;
+}
+
+.icon-header-left {
+    padding-right: 20px;
+    font-size: 30px;
+    color: #3f3f3f;
+}
+
+.icon-header-left:hover {
+    color: #826969;
+}
+
+.link-vertical {
+    font-size: 1.3rem;
+    color: #3f3f3f;
+}
+
+.link-vertical:hover {
+    font-size: 1.3rem;
+    color: #826969;
+}
+
+.item-color {
+    border-top: 1px solid #ccc;
+}
+
+.link-vertical .fas{
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.corpo-principal {
+    background-color: #eee;
+}
+
+.menu-links-header {
+    padding-top: 20px;
+}
+
+.menu-vertical {
+    background-color: rgb(221, 220, 220);
+    padding-bottom: 36%;
+}
+
+.corpo-esquerdo {
+    padding-top: 40px;
+}
+
+.menu-top-links {
+    margin-top: 20px;
+}
+
+.link-icon {
+    margin-right: 20px;
+    color: #3f3f3f;
+}
+
+.link-icon:hover {
+    margin-right: 20px;
+    color: #826969;
+}
+
+.link-texto {
+    margin-right: 10px;
+    height: 18px;
+    font-size: 2rem;
+}
+
+.link-separados {
+    border-right: 1px solid #ccc;
+}
+
+.espacamento-icon {
+    padding-right: 20px;
+}
+
+img {
+    border-radius: 50%;
+}
+.input-group-text {
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
+.form-select {
+    width: 200px;
+    background-color: #ccc;
+}
