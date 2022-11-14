@@ -1,13 +1,96 @@
-.menu-right-icon {
+// Menu header left
+.menu-left-header {
+    
+}
+
+.icon-size-header {
+    padding-right: 30px;
+}
+
+// Menu header right
+.menu-right-header {
     display: flex;
     align-items: center;
     justify-content: right;
+    padding-top: 1%;
+    
 }
 
+.menu-right-icon p {
+    font-size: 2.5rem;
+}
+
+.language-text-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.language-text-size {
+    padding-left: 15px;
+}
+
+.icons-menu-right-size {
+    font-size: 30px;
+}
+
+.icone-busca {
+    padding-bottom: 10px;
+}
+
+.menu-right-icon .fab {
+    color: white;
+}
+
+.menu-right-icon .fas {
+    color: white;
+}
+
+.fa-envelope {
+    font-size: 30px;
+}
+
+.text-follow {
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.text-header {
+    font-size: 20px;
+}
+
+// Shared
 .icon-space {
-    padding-right: 10px;
+    margin-right: 10px;
 }
 
+.icon-space-left {
+    padding-left: 10px;
+}
+
+.vertical-line {
+    padding: 0 20px;
+    border-right: 1px solid #ccc;
+}
+
+// Menu central
+.text-central-menu {
+    font-size: 2rem;
+    background-color: #666;
+}
+
+.text-central-menu .fas {
+    padding-left: 20px;
+}
+
+.text-central-menu .nav-item a {
+    color: white;
+}
+
+.text-central-menu .nav-item a:hover {
+    color: #666;
+}
+
+// Footer menu
 .menu-footer {
     background-color: #444;
 }
@@ -16,10 +99,14 @@
     color: white;
     font-size: 3rem;
     margin: 0;
-    padding-top: 4%;
+    padding-top: 5%;
 }
 
-.icon-size {
-    font-size: 5rem;
+.icon-size-footer {
+    font-size: 40px;
     color: white;
+}
+
+.menu-footer-icons {
+    margin-top: 20px;
 }
