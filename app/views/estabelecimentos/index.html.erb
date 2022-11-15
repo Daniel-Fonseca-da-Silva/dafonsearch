@@ -1,43 +1,58 @@
 <html>
-    <body>
-    <%= icon('fa-brands', 'font-awesome')%>
-    <%= icon('fa-solid', 'user-secret')%>
-    <%= icon('fa-regular', 'bell')%>
-        <table>
+<body>
+    <div class="card" style="width: 100%;">
+        <div class="card-body">
+            <h1 class="card-title">Lista de Estabelecimentos</h1>
+        </div>
+    </div>
+        <table class="table table-striped">
             <thead>
-                <tr>
-                    <td>Nome</td>
-                    <td>Descricao</td>
-                    <td>Categoria</td>
-                    <td>Numero</td>
-                    <td>Estado</td>
-                    <td>Bairo</td>
-                    <td>Cidade</td>
-                    <td>Cep</td>
-                    <td>Telefone</td>
-                    <td>Site</td>
-                    <td>Pontuação</td>
-                    <td>Email</td>
-                </tr>
+              <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Descrição</th>
+                <th scope="col">Categoria</th>
+                <th scope="col">Número</th>
+                <th scope="col">Estado</th>
+                <th scope="col">Bairro</th>
+                <th scope="col">Cidade</th>
+                <th scope="col">CEP</th>
+                <th scope="col">Telefone</th>
+                <th scope="col">Site</th>
+                <th scope="col">Pontuação</th>
+                <th scope="col">Email</th>
+              </tr>
             </thead>
             <tbody>
                 <% @estabelecimentos.each do |estabelecimento| %>
-                    <tr>
-                        <td><%= estabelecimento.nome %></td>
-                        <td><%= estabelecimento.descricao %></td>
-                        <td><%= estabelecimento.categoria %></td>
-                        <td><%= estabelecimento.numero %></td>
-                        <td><%= estabelecimento.estado %></td>
-                        <td><%= estabelecimento.bairro %></td>
-                        <td><%= estabelecimento.cidade %></td>
-                        <td><%= estabelecimento.cep %></td>
-                        <td><%= estabelecimento.telefone %></td>
-                        <td><%= estabelecimento.site %></td>
-                        <td><%= estabelecimento.pontuacao %></td>
-                        <td><%= estabelecimento.email %></td>
-                    </tr>
-                <% end %>
+                <tr>
+                    <td><%= estabelecimento.nome %></td>
+                    <td><%= estabelecimento.descricao %></td>
+                    <td><%= estabelecimento.categoria %></td>
+                    <td><%= estabelecimento.numero %></td>
+                    <td><%= estabelecimento.estado %></td>
+                    <td><%= estabelecimento.bairro %></td>
+                    <td><%= estabelecimento.cidade %></td>
+                    <td><%= estabelecimento.cep %></td>
+                    <td><%= estabelecimento.telefone %></td>
+                    <td><%= estabelecimento.site %></td>
+                    <td><%= estabelecimento.pontuacao %></td>
+                    <td><%= estabelecimento.email %></td>
+                </tr>
+            <% end %>
             </tbody>
-        </table>
-    </body>
+          </table>
+      <div class="paginacao-table">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Voltar</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item"><a class="page-link" href="#">Avançar</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
 </html>
